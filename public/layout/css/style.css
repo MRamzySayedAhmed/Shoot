@@ -1,0 +1,353 @@
+/* Starting The General Rules */
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+ol, ul
+{
+    margin: 0px;
+}
+
+/* Starting The Navigation Rules */
+
+.navigation
+{
+    margin: auto 100px;
+    border-radius: 10px;
+    padding: auto 50px;
+    overflow: hidden;
+    transition: all 200ms;
+}
+
+.navigation-padding
+{
+    padding-bottom: 95px;
+    transition: all 500ms;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover
+{
+    background-color: inherit;
+}
+.my-menu
+{
+    list-style-type: none;
+    margin: 15px 0px;
+}
+
+.my-menu a:link, .my-menu a:hover, .my-menu a:visited, .my-menu a:active
+{
+    text-decoration: none;
+}
+
+.my-menu .dropdown .dropdown-menu
+{
+    background-color: #252525;
+    margin-top: 5px;
+}
+
+.my-menu .dropdown .dropdown-menu li a
+{
+    color: #EEE!important;
+    font-size: 16px;
+    transition: all 500ms;
+}
+
+.my-menu .dropdown .dropdown-menu li a:hover
+{
+    font-size: 18px;
+    background-color: inherit;
+}
+
+.my-menu .dropdown .dropdown-menu li a i
+{
+    color: #EEE;
+}
+
+.navigation .container
+{
+    padding-left: 5px;
+    padding-right: 25px;
+}
+
+.navigation ul
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation ul li
+{
+    margin: auto 4px;
+}
+
+.navigation ul li a
+{
+    color: #888!important;
+    font-size: 16px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    transition: all 500ms;
+}
+
+.navigation ul li a:hover
+{
+    color: #DDD!important;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navigation ul li a i
+{
+    font-size: 15px;
+    color: #EEE;
+    margin-right: 5px;
+}
+
+/* This Style Will Be Applied If The Screen Has A Maximum Width Of 991px */
+@media screen and (max-width: 768px)
+{
+
+.my-menu .dropdown a.dropdown-toggle
+    {
+        margin-left: 0px!important;
+        padding-left: 0px!important;
+    }
+}
+
+.slider
+{
+    margin: 0px 100px;
+    background-image: url("../images/slider.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 5px;
+    height: 500px;
+    opacity: 0.8;
+}
+
+/* Starting The Homepage Rules */
+
+.news a:first-of-type
+{
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.news a:first-of-type:hover
+{
+    font-size: 18px;
+}
+
+.news .new
+{
+    margin-top: 100px;
+}
+
+.news .new a:first-child
+{
+    margin-bottom: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.news .new a:first-child h3
+{
+    color: #585858;
+    transition: all 500ms;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.news .new a:first-child h3:hover
+{
+    font-size: 15px;
+    color: #888;
+}
+
+.news .new a:nth-child(2)
+{
+    cursor: pointer;
+}
+
+.news .new a img
+{
+    width: 130px;
+    height: 150px;
+    transition: all 500ms;
+    display: block;
+    margin: auto;
+
+}
+
+.news .new a img:hover
+{
+    width: 150px;
+}
+
+.news .new a:last-child
+{
+    display: block;
+    margin: 10px 50px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.news .new a:last-child:hover
+{
+    font-size: 15px;
+}
+
+.controls
+{
+    position: relative;
+    top: 400px;
+    right: 70px;
+}
+
+.controls_en
+{
+    position: relative;
+    top: 400px;
+    right: 250px;
+}
+
+.controls_ar
+{
+    position: relative;
+    top: 220px;
+    right: 0px;
+}
+
+/* Starting The News Details Rules */
+
+.details hr
+{
+    border: 1px solid #888;
+    overflow: visible;
+    margin-top: 0px;
+    position: relative;
+    bottom: 50px;
+    margin-left: 30%;
+}
+
+.news_details
+{
+    margin-bottom: 0px!important;
+    margin-left: 35%;
+    margin-right: 50%;
+}
+
+.news_details span
+{
+    font-weight: bold;
+}
+
+.news_details .login
+{
+    text-decoration: none;
+    font-size: 24px;
+    display: block;
+    position: absolute;
+    top: 163%;
+    margin-left: 10%;
+    color: #FFF;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.news_details .login:hover
+{
+    font-size: 25px;
+}
+
+.news_details h2
+{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 70px;
+    margin-left: 17%;
+}
+
+.news_details .image
+{
+    position: relative;
+    top: -245px;
+    left: 200px;
+    height: 240px;
+}
+
+/* Starting The Fotter Rules */
+
+.list
+{
+    margin: 250px 100px auto 100px;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.list .first
+{
+    list-style-type: none;
+    margin: 20px;
+}
+.list .first li
+{
+    display: inline;
+    margin: auto 22px;
+}
+
+.list .first li a
+{
+    color: #DDD;
+    font-size: 20px;
+    text-decoration-line: none;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    transition: all 500ms;
+}
+
+.list .first li a:hover
+{
+    color: #EEE;
+    font-size: 24px;
+    margin-right: 25px;
+}
+
+.list .second
+{
+    list-style-type: none;
+    margin: 20px;
+}
+.list .second li
+{
+    display: inline;
+    margin: auto 10px;
+}
+
+.list .second li a
+{
+    color: #CCC;
+    font-size: 16px;
+    text-decoration-line: none;
+    transition: all 500ms;
+}
+
+.list .second li a:hover
+{
+    color: #EEE;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.list p
+{
+    color: #888;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
