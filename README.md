@@ -14,7 +14,7 @@ It is a Responsive Football News App Providing, The Basic Features That Both Adm
 
 <img src="public/admin/layout/(2).PNG" width="400px" height="200px"></img>
 
-* Responsive & Flexible Dahboard to Make All CRUD Operations on the **News** Module.
+* Responsive & Flexible Dashboard to Make All CRUD Operations on the **News** Module.
 
 <img src="public/admin/layout/(3).PNG" width="400px" height="200px"></img>
 
