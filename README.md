@@ -90,3 +90,4 @@ It's a Responsive Sports News App.
 * PHP
 * Laravel
 * MySQL DB
+.
