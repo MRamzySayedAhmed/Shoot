@@ -89,4 +89,4 @@ It's a Responsive Sports News App Providing The Basic Features That Both Admins 
 * Bootstrap
 * PHP
 * Laravel
-* MySQL DB
+* MySQL
