@@ -1,5 +1,5 @@
 # Shoot
-It's a Responsive Sports News App Providing The Basic Features That Both Admins & Users Need
+It's a Responsive Sports News App Providing The Basic Features That Both Admins & Users Need.
 
 # The Features
 * Fully Responsive Design Using **Grid System** in **Bootstrap**.
