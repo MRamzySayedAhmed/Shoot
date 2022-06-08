@@ -1,5 +1,5 @@
 # Shoot
-It's a Responsive Sports News App
+It's a Responsive Sports News App.
 
 # The Features
 * The Responsive, Simple & Classic Design.
