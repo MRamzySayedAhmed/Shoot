@@ -30,9 +30,7 @@ It's a Responsive Sports News App.
 
 # The Used Technologies
 * HTML
-* HTML5
 * CSS
-* CSS3
 * Font Awesome CSS Library
 * JavaScript
 * Nice Scroll JS Plugin
