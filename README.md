@@ -34,8 +34,8 @@ It's a Responsive Sports News App.
 * Font Awesome CSS Library
 * JavaScript
 * Nice Scroll JS Plugin
-* jQuery
 * AJAX
+* jQuery
 * Bootstrap
 * PHP
 * Laravel
